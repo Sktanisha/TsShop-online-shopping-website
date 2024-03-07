@@ -17,7 +17,7 @@ class profile(models.Model):
     contact = models.IntegerField(max_length=11)
 
 class item_test(models.Model):
-    name_item = models.CharField(max_length = 30)
-    price = models.FloatField()
-    availability = models.BooleanField()
-    picture = models.ImageField(upload_to=None, height_field=None, width_field=None, max_length=100)
+    tname_item = models.CharField(max_length = 30)
+    tprice = models.FloatField()
+    tavailability = models.BooleanField()
+    tpicture = models.ImageField(upload_to=None, height_field=None, width_field=None, max_length=100)
